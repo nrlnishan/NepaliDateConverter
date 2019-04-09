@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1AC248225CFDE50050E162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1AC247225CFDE50050E162 /* AppDelegate.swift */; };
+		1A1AC24A225CFDE50050E162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1AC249225CFDE50050E162 /* ViewController.swift */; };
+		1A1AC24D225CFDE50050E162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1AC24B225CFDE50050E162 /* Main.storyboard */; };
+		1A1AC24F225CFDE70050E162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1AC24E225CFDE70050E162 /* Assets.xcassets */; };
+		1A1AC252225CFDE70050E162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1AC250225CFDE70050E162 /* LaunchScreen.storyboard */; };
+		1A1AC25D225CFDE70050E162 /* NepaliDateConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1AC25C225CFDE70050E162 /* NepaliDateConverterTests.swift */; };
+		1A1AC269225CFE820050E162 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1AC267225CFE820050E162 /* DateConverter.swift */; };
+		1A1AC26A225CFE820050E162 /* NepaliDateTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1AC268225CFE820050E162 /* NepaliDateTranslator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A1AC259225CFDE70050E162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1AC23C225CFDE50050E162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1AC243225CFDE50050E162;
+			remoteInfo = NepaliDateConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1AC244225CFDE50050E162 /* NepaliDateConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepaliDateConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1AC247225CFDE50050E162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A1AC249225CFDE50050E162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A1AC24C225CFDE50050E162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A1AC24E225CFDE70050E162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1AC251225CFDE70050E162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A1AC253225CFDE70050E162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1AC258225CFDE70050E162 /* NepaliDateConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NepaliDateConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1AC25C225CFDE70050E162 /* NepaliDateConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDateConverterTests.swift; sourceTree = "<group>"; };
+		1A1AC25E225CFDE70050E162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1AC267225CFE820050E162 /* DateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		1A1AC268225CFE820050E162 /* NepaliDateTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NepaliDateTranslator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1AC241225CFDE50050E162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1AC255225CFDE70050E162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1AC23B225CFDE50050E162 = {
+			isa = PBXGroup;
+			children = (
+				1A1AC246225CFDE50050E162 /* NepaliDateConverter */,
+				1A1AC25B225CFDE70050E162 /* NepaliDateConverterTests */,
+				1A1AC245225CFDE50050E162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A1AC245225CFDE50050E162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1AC244225CFDE50050E162 /* NepaliDateConverter.app */,
+				1A1AC258225CFDE70050E162 /* NepaliDateConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1AC246225CFDE50050E162 /* NepaliDateConverter */ = {
+			isa = PBXGroup;
+			children = (
+				1A1AC26B225CFF160050E162 /* Core */,
+				1A1AC247225CFDE50050E162 /* AppDelegate.swift */,
+				1A1AC249225CFDE50050E162 /* ViewController.swift */,
+				1A1AC24B225CFDE50050E162 /* Main.storyboard */,
+				1A1AC24E225CFDE70050E162 /* Assets.xcassets */,
+				1A1AC250225CFDE70050E162 /* LaunchScreen.storyboard */,
+				1A1AC253225CFDE70050E162 /* Info.plist */,
+			);
+			path = NepaliDateConverter;
+			sourceTree = "<group>";
+		};
+		1A1AC25B225CFDE70050E162 /* NepaliDateConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A1AC25C225CFDE70050E162 /* NepaliDateConverterTests.swift */,
+				1A1AC25E225CFDE70050E162 /* Info.plist */,
+			);
+			path = NepaliDateConverterTests;
+			sourceTree = "<group>";
+		};
+		1A1AC26B225CFF160050E162 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A1AC267225CFE820050E162 /* DateConverter.swift */,
+				1A1AC268225CFE820050E162 /* NepaliDateTranslator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1AC243225CFDE50050E162 /* NepaliDateConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1AC261225CFDE70050E162 /* Build configuration list for PBXNativeTarget "NepaliDateConverter" */;
+			buildPhases = (
+				1A1AC240225CFDE50050E162 /* Sources */,
+				1A1AC241225CFDE50050E162 /* Frameworks */,
+				1A1AC242225CFDE50050E162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NepaliDateConverter;
+			productName = NepaliDateConverter;
+			productReference = 1A1AC244225CFDE50050E162 /* NepaliDateConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A1AC257225CFDE70050E162 /* NepaliDateConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1AC264225CFDE70050E162 /* Build configuration list for PBXNativeTarget "NepaliDateConverterTests" */;
+			buildPhases = (
+				1A1AC254225CFDE70050E162 /* Sources */,
+				1A1AC255225CFDE70050E162 /* Frameworks */,
+				1A1AC256225CFDE70050E162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1AC25A225CFDE70050E162 /* PBXTargetDependency */,
+			);
+			name = NepaliDateConverterTests;
+			productName = NepaliDateConverterTests;
+			productReference = 1A1AC258225CFDE70050E162 /* NepaliDateConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1AC23C225CFDE50050E162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nishan Niraula";
+				TargetAttributes = {
+					1A1AC243225CFDE50050E162 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					1A1AC257225CFDE70050E162 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1A1AC243225CFDE50050E162;
+					};
+				};
+			};
+			buildConfigurationList = 1A1AC23F225CFDE50050E162 /* Build configuration list for PBXProject "NepaliDateConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1AC23B225CFDE50050E162;
+			productRefGroup = 1A1AC245225CFDE50050E162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1AC243225CFDE50050E162 /* NepaliDateConverter */,
+				1A1AC257225CFDE70050E162 /* NepaliDateConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1AC242225CFDE50050E162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1AC252225CFDE70050E162 /* LaunchScreen.storyboard in Resources */,
+				1A1AC24F225CFDE70050E162 /* Assets.xcassets in Resources */,
+				1A1AC24D225CFDE50050E162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1AC256225CFDE70050E162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1AC240225CFDE50050E162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1AC24A225CFDE50050E162 /* ViewController.swift in Sources */,
+				1A1AC248225CFDE50050E162 /* AppDelegate.swift in Sources */,
+				1A1AC26A225CFE820050E162 /* NepaliDateTranslator.swift in Sources */,
+				1A1AC269225CFE820050E162 /* DateConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1AC254225CFDE70050E162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1AC25D225CFDE70050E162 /* NepaliDateConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1AC25A225CFDE70050E162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A1AC243225CFDE50050E162 /* NepaliDateConverter */;
+			targetProxy = 1A1AC259225CFDE70050E162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A1AC24B225CFDE50050E162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1AC24C225CFDE50050E162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A1AC250225CFDE70050E162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1AC251225CFDE70050E162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A1AC25F225CFDE70050E162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A1AC260225CFDE70050E162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A1AC262225CFDE70050E162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2M462CEG4;
+				INFOPLIST_FILE = NepaliDateConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nisha.github.NepaliDateConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A1AC263225CFDE70050E162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2M462CEG4;
+				INFOPLIST_FILE = NepaliDateConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nisha.github.NepaliDateConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A1AC265225CFDE70050E162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2M462CEG4;
+				INFOPLIST_FILE = NepaliDateConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nisha.github.NepaliDateConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NepaliDateConverter.app/NepaliDateConverter";
+			};
+			name = Debug;
+		};
+		1A1AC266225CFDE70050E162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2M462CEG4;
+				INFOPLIST_FILE = NepaliDateConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nisha.github.NepaliDateConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NepaliDateConverter.app/NepaliDateConverter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1AC23F225CFDE50050E162 /* Build configuration list for PBXProject "NepaliDateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1AC25F225CFDE70050E162 /* Debug */,
+				1A1AC260225CFDE70050E162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1AC261225CFDE70050E162 /* Build configuration list for PBXNativeTarget "NepaliDateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1AC262225CFDE70050E162 /* Debug */,
+				1A1AC263225CFDE70050E162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1AC264225CFDE70050E162 /* Build configuration list for PBXNativeTarget "NepaliDateConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1AC265225CFDE70050E162 /* Debug */,
+				1A1AC266225CFDE70050E162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A1AC23C225CFDE50050E162 /* Project object */;
+}
