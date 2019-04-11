@@ -198,7 +198,7 @@ public class DateConverter {
     ///   - year: Nepali Year from 2000 to 2090
     ///   - month: Nepali Month, 1 is Baisakh & 12 is Chaitra
     /// - Returns: Number of days
-    public func getNumberOfDaysInNepaliCalendar(year: Int, month: Int) -> Int {
+    private func getNumberOfDaysInNepaliCalendar(year: Int, month: Int) -> Int {
         return nepaliDateMap[year - startNepaliDate.year][month - 1]
     }
     
@@ -209,7 +209,7 @@ public class DateConverter {
     ///   - year: English year from 1943 to 2034
     ///   - month: English month, 1 is Jan & 12 is December
     /// - Returns: Number of days
-    public func getNumberOfDaysInEnglishCalendar(year: Int, month: Int) -> Int? {
+    private func getNumberOfDaysInEnglishCalendar(year: Int, month: Int) -> Int? {
         
         var components = DateComponents()
         components.year = year
