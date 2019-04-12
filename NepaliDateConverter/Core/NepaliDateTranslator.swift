@@ -22,6 +22,10 @@ public class NepaliDateTranslator {
     public let days = [
         "आईत", "सोम", "मंगल", "बुध", "बिही", "शुक्र", "शनि"]
     
+    public init() {
+        
+    }
+    
     /// Get the name of month in Nepali
     ///
     /// - Parameter month: Range of month [1-12] where 1 is baisakh
