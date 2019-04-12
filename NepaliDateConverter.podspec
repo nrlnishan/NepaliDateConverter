@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NepaliDateConverter"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Nepali to English & vice versa date conversion library in Swift"
   spec.description  = <<-DESC
 A date conversion library written in swift to convert Nepali date to English & vice versa.
