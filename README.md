@@ -27,7 +27,9 @@ files present in ```NepaliDateConverter/Core``` location to your project.
 This library is written for the purpose of converting Nepali date to English & vice versa. You can also use this library to translate Date Components to its Nepali Counterparts. 
 Date (Nepali or English) in this library is represented as a struct named DateModel. DateModel contains three properties: year, month & day.
 
-Unit tests for most of the methods are written and can be found at ```NepaliDateConverterTests/NepaliDateConverterTests.swift``` file.
+✅Nepali to English Conversion
+✅English to Nepali Conversion
+✅Unit Tests
 
 # How to use
 
