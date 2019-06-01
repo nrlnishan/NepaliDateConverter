@@ -28,7 +28,9 @@ This library is written for the purpose of converting Nepali date to English & v
 Date (Nepali or English) in this library is represented as a struct named DateModel. DateModel contains three properties: year, month & day.
 
 ✅Nepali to English Conversion
+
 ✅English to Nepali Conversion
+
 ✅Unit Tests
 
 # How to use
